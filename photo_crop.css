@@ -1,0 +1,39 @@
+        #divfoto
+        {
+            width:500px;
+            height:500px;
+            overflow:hidden;
+            border: solid 1px #bdbdbd;
+            cursor:grab;
+        }
+        #Dfoto
+        {
+            width:500px;
+            height:500px;
+            background-image:url('g.jpg');
+            background-repeat:no-repeat;
+            background-position-x:0;
+        }
+        div, span
+        {
+            font-weight:100;
+            font-size: 15px;
+        }
+        input
+        {
+            font-weight:100;
+            font-size: 15px;
+            height:40px;
+            padding-left: 5px;
+            padding-right: 5px;
+            letter-spacing: 1px;
+        }
+        input[type='text'], input[type='button']
+        {
+            border: solid 1px #bdbdbd;
+            border-radius: 2px;
+        }
+        input[type='button']
+        {
+            background: #bdbdbd;
+        }
